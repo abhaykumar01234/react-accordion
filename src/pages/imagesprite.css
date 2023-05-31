@@ -1,0 +1,22 @@
+.spriteSection {
+  background: color-mix(in srgb, #009ef7 50%, #fff);
+  margin-inline: calc(max(50vw - 600px, 1rem) * -1);
+  padding-inline: max(calc(50vw - 600px), 1rem);
+}
+
+.spriteWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.spriteTile {
+  background-repeat: no-repeat;
+  background-image: var(--bg-url);
+  background-size: 100% auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* mix-blend-mode: multiply; */
+}

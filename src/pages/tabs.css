@@ -1,0 +1,14 @@
+.tabsSection {
+  --color-grey: #a1a5b7;
+  --color-red: #ec5f5d;
+  --color-blue: #009ef7;
+
+  display: grid;
+  place-items: center;
+}
+
+.tabsWrapper {
+  background: var(--color-white);
+  padding: 20px;
+  border-radius: 10px;
+}
